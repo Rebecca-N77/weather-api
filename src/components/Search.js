@@ -9,9 +9,9 @@ class Search extends React.Component {
 
   render() {
     return (
-      <div>
-        {this.state.input}
-        <input
+      <div className="navbar">
+        
+        <input className = "search"
           type="text"
           id="input-name"
           onChange={event => {
@@ -23,7 +23,7 @@ class Search extends React.Component {
             this.props.handleInput(this.state.input);
           }}
         >
-          Say Hello
+          Find Weather
         </button>
       </div>
     );

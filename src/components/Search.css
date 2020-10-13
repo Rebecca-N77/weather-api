@@ -1,3 +1,23 @@
-div {
-    border: 25px solid black;
-}
+
+button {
+    background-color: #5879C7 ; 
+    border: none;
+    color: #425BA7 ;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+  .navbar {
+      background-color: #759EDA ;
+      padding: 30px;
+      
+  }
+  .search{
+      
+      border: underline;
+      color: white;
+      background-color: rgba(0,0,0,0.1);
+      
+  }
