@@ -1,5 +1,6 @@
 
 button {
+    
     background-color: #5879C7 ; 
     border: none;
     color: #425BA7 ;
@@ -10,14 +11,17 @@ button {
     font-size: 16px;
   }
   .navbar {
-      background-color: #759EDA ;
+      display: flex;
+      justify-content: start;
+     background-color: #759EDA ;
       padding: 30px;
       
   }
   .search{
-      
-      border: underline;
+      border: none;
       color: white;
-      background-color: rgba(0,0,0,0.1);
+      background-color: #86aeeb;
+      background: none;
+      outline: none
       
   }
